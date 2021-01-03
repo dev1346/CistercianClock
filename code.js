@@ -22,9 +22,6 @@ function draw() {
   stroke("red")
   strokeWeight(3)
 
-//  drawClockString(hour()+""+minute()+":"+second(),l)
-// translate(l,l)
-
   outputStr=year()+" "+month()+" "+day()+" "+hour()+":"+minute()+":"+second()+"."+floor(millis()%100)
   output = year()*1e12+month()*1e10+day()*1e8+hour()*1e6+minute()*1e4+second()*1e2+floor(millis()%100)
   drawNumber(output,min(windowWidth, windowHeight)/5,l)
