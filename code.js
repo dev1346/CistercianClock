@@ -12,8 +12,8 @@ function draw() {
   if(mouseIsPressed){
     push()
     textSize(32)
-    stroke("blue")
-    fill("blue")
+    stroke("green")
+    fill("green")
     text(outputStr,l/2, l/2)
     pop()
   }
